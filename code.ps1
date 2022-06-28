@@ -36,7 +36,7 @@ $image =  "https://github.com/anonymouspizza37/jumpscare/blob/16d8487be2c0e44b52
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
 
-iwr https://github.com/I-Am-Jakoby/hak5-submissions/raw/main/OMG/Payloads/OMG-JumpScare/jumpscare.png?dl=1 -O $env:TMP\i.png
+iwr https://github.com/anonymouspizza37/jumpscare/blob/16d8487be2c0e44b52bbf31ec9c15e5055154690/windowslight.jpg?dl=1 -O $env:TMP\i.png
 
 # Download WAV file; replace link to $wav to add your own sound
 
